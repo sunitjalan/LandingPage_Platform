@@ -82,12 +82,36 @@ body {
     left: -8px;
     top: -6px;
     width: 50px;
-    opacity: ;
+    opacity: 0;
 
 }
 
 .lightswitch input[type="checkbox"]:checked+label {
     left: 25px;
     background: tomato;
+
+}
+
+.imglayer {
+    position: absolute;
+    top: 50%;
+    left: 22%;
+}
+
+.imglayer img {
+    width: 59vw;
+
+}
+
+.container h4 {
+    font-size: 11rem;
+    margin: 0 0.4rem;
+    padding: 0 1 rem;
+    margin-top: 1rem;
+    font-family: 'Titillium Web', sans-serif;
+    background: var(--primary-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
 }
